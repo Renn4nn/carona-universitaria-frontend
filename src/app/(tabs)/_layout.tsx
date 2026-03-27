@@ -19,6 +19,15 @@ export default function TabLayout() {
         options={{
           title: "Início",
           tabBarIcon: ({ color }) => (
+            <Ionicons name="home" size={24} color={color} />
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="minhasCaronas"
+        options={{
+          title: "Minhas Caronas",
+          tabBarIcon: ({ color }) => (
             <Ionicons name="car" size={24} color={color} />
           ),
         }}
